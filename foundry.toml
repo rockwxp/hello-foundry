@@ -9,3 +9,5 @@ sepolia = "https://eth-sepolia.g.alchemy.com/v2/3R5LGfVPxUNZQ3Ly4c9jfF0wDgjaaTVb
 
 [etherscan]
 sepolia = { key = "4YS2TFS16K511Y5ND24DNZXNDKKRV9H1UI" }
+
+#forge script --chain sepolia script/MyToken.s.sol --rpc-url https://eth-sepolia.g.alchemy.com/v2/3R5LGfVPxUNZQ3Ly4c9jfF0wDgjaaTVb --broadcast --verify --account MetaMaskAccount1 -vvvv
